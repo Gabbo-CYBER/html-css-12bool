@@ -10,11 +10,19 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+
+  .pagemargin{
+    margin: 15px
+  }
+  .pagemargin-a{
+    margin:auto;
+  }
   
   .debug .container{
     
   }
-  
+
   .content{
     position: absolute;
     top:50%;
@@ -25,10 +33,11 @@
   .debug [ class*="col-"]{
     background-color:rgb(0, 119, 255);
     height: 50px;
-    border: 1px solid black;
+    border: 1px solid white;
     position: relative;
     padding: 5px;
     color: aliceblue;
+    display: flex;
   }
   
   .content{
@@ -36,3 +45,50 @@
     text-align: center;
   }
   
+.square{
+  background-color: greenyellow;
+    height: 35px;
+    width: 100px;
+    margin: 1px;
+    text-align: center;
+    padding: 7px;
+}
+.square-1{
+  background-color: greenyellow;
+    height: 35px;
+    width: 100px;
+    margin: 1px;
+    padding: 7px;
+}
+
+.square-2{
+  background-color: greenyellow;
+    height: 35px;
+    width: 370px;
+    margin: 1px;
+    text-align: center;
+    padding: 7px;
+}
+
+.square-3{
+  background-color: greenyellow;
+    height: 35px;
+    width: 370px;
+    margin: 1px;
+    text-align: center;
+    padding: 7px;
+}
+
+.square-4{
+  background-color: greenyellow;
+    height: 35px;
+    width: 370px;
+    margin: 1px;
+    text-align: center;
+    padding: 7px;
+}
+
+
+
+
+
